@@ -9,7 +9,7 @@
 3. 依下面各節填「商店資訊」「隱私權」「發布」三個分頁
 4. 上傳至少 1 張截圖（1280×800 或 640×400，PNG/JPG，不能有透明）：建議在深色與淺色模式各截一張影片頁，控制列要看得到
 5. 上傳 `dist/promo-small-440x280.png` 當小型宣傳圖（選填但建議）
-6. 隱私權政策網址：把 `PRIVACY_POLICY.md` 放到任何公開網址（GitHub repo、GitHub Pages、Notion 公開頁面都可以），貼上連結
+6. 隱私權政策網址：`https://chiefchkimo.github.io/youtube-channel-order-player/PRIVACY_POLICY`（若打不開改用 `https://github.com/chiefchkimo/youtube-channel-order-player/blob/main/PRIVACY_POLICY.md`）
 7. 語言：外掛內建 `_locales/zh_TW` 與 `_locales/en`，商店會依瀏覽者語言自動顯示對應的名稱與簡短說明。詳細說明要在後台「商店資訊」分頁點「新增語言」加入 English，貼上下方英文版
 8. 送出審查。純內容腳本、只有 storage 權限的擴充功能通常 1～3 個工作天內過審
 
@@ -66,7 +66,10 @@ YouTube 頻道順序播放
 - 不會為了判斷信用或貸款目的使用或轉移資料
 
 **隱私權政策網址**
-（貼上你放 PRIVACY_POLICY.md 的公開網址）
+https://chiefchkimo.github.io/youtube-channel-order-player/PRIVACY_POLICY
+
+**支援網址／首頁**
+https://github.com/chiefchkimo/youtube-channel-order-player
 
 ## 發布分頁
 
@@ -120,4 +123,7 @@ Check none of the data types (no personally identifiable information, health, fi
 Certify all three statements: data is not sold to third parties; not used or transferred for purposes unrelated to the single purpose; not used or transferred to determine creditworthiness or for lending purposes.
 
 **Privacy policy URL**
-(Public URL of PRIVACY_POLICY.md — it already contains an English section)
+https://chiefchkimo.github.io/youtube-channel-order-player/PRIVACY_POLICY
+
+**Support / homepage URL**
+https://github.com/chiefchkimo/youtube-channel-order-player

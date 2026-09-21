@@ -13,7 +13,7 @@
 - 你的設定（是否自動接續、方向、延遲秒數等）只儲存在你自己的 Chrome 帳號同步空間（`chrome.storage.sync`），開發者無法存取。
 - 沒有分析工具、沒有廣告、沒有遠端程式碼。
 
-原始碼公開，可自行檢視。若有疑問請透過商店頁面的支援連結聯絡開發者。
+原始碼公開於 https://github.com/chiefchkimo/youtube-channel-order-player ，可自行檢視。若有疑問請在該專案開 issue。
 
 ## English
 
@@ -26,4 +26,4 @@
 - Your settings (auto-continue on/off, direction, delay, etc.) are stored only in your own Chrome sync storage (`chrome.storage.sync`) and are not accessible to the developer.
 - No analytics, no ads, no remote code.
 
-The source code is open for inspection. For questions, contact the developer via the support link on the store listing.
+The source code is available at https://github.com/chiefchkimo/youtube-channel-order-player. For questions, please open an issue there.

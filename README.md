@@ -3,6 +3,8 @@
 看 YouTube 時，依照**同一頻道的上傳順序**切到下一部（較新）或上一部（較舊）影片，
 也可以在影片播完後自動接著播。不需要 API key、不需要登入。
 
+專案網址：https://github.com/chiefchkimo/youtube-channel-order-player
+
 ## 安裝（開發者模式載入）
 
 1. 開 Chrome，網址列輸入 `chrome://extensions`
