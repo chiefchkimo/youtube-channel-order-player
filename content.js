@@ -393,6 +393,7 @@
     panel.innerHTML = `
       <button class="ytco-btn ytco-prev" data-dir="older" title="${t('prevTip')}">
         <span class="ytco-arrow">◀</span>
+        <img class="ytco-thumb" alt="" loading="lazy">
         <span class="ytco-btn-text"><span class="ytco-label">${t('prevLabel')}</span><span class="ytco-title"></span></span>
       </button>
       <div class="ytco-mid">
@@ -402,6 +403,7 @@
       </div>
       <button class="ytco-btn ytco-next" data-dir="newer" title="${t('nextTip')}">
         <span class="ytco-arrow">▶</span>
+        <img class="ytco-thumb" alt="" loading="lazy">
         <span class="ytco-btn-text"><span class="ytco-label">${t('nextLabel')}</span><span class="ytco-title"></span></span>
       </button>`;
     panel.querySelectorAll('.ytco-btn').forEach((b) => b.addEventListener('click', () => go(b.dataset.dir)));
@@ -446,6 +448,8 @@
     nextBtn.disabled = !next;
     prevBtn.querySelector('.ytco-title').textContent = prev ? prev.title : state.loading ? '…' : t('noOlder');
     nextBtn.querySelector('.ytco-title').textContent = next ? next.title : state.loading ? '…' : t('noNewer');
+    setThumb(prevBtn, prev);
+    setThumb(nextBtn, next);
     prevBtn.title = prev ? t('olderPrefix') + prev.title + (prev.length ? ' (' + prev.length + ')' : '') : '';
     nextBtn.title = next ? t('newerPrefix') + next.title + (next.length ? ' (' + next.length + ')' : '') : '';
 
@@ -465,6 +469,19 @@
       status.textContent = '';
     }
     panel.querySelector('.ytco-auto input').checked = settings.autoplay;
+  }
+
+  function setThumb(btn, video) {
+    const img = btn.querySelector('.ytco-thumb');
+    if (!img) return;
+    if (video) {
+      const url = `https://i.ytimg.com/vi/${video.videoId}/mqdefault.jpg`;
+      if (img.getAttribute('src') !== url) img.src = url;
+      img.style.display = '';
+    } else {
+      img.removeAttribute('src');
+      img.style.display = 'none';
+    }
   }
 
   function hidePanel() {

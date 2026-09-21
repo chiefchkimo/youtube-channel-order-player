@@ -28,8 +28,8 @@
   min-width: 0;
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 10px;
+  gap: 8px;
+  padding: 6px 10px 6px 8px;
   border: none;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.08);
@@ -52,6 +52,14 @@
 #ytco-panel .ytco-arrow {
   flex: 0 0 auto;
   font-size: 16px;
+}
+#ytco-panel .ytco-thumb {
+  flex: 0 0 auto;
+  width: 80px;
+  height: 45px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: rgba(0, 0, 0, 0.2);
 }
 #ytco-panel .ytco-btn-text {
   min-width: 0;
