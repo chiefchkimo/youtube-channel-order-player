@@ -1,0 +1,131 @@
+{
+  "extName": {
+    "message": "YouTube 頻道順序播放"
+  },
+  "extDesc": {
+    "message": "依照頻道上傳順序播放上一部／下一部影片，看完自動接著播同一頻道的下一部上傳。"
+  },
+  "actionTitle": {
+    "message": "YouTube 頻道順序播放 設定"
+  },
+  "cmdNewer": {
+    "message": "播放同頻道較新的下一部影片"
+  },
+  "cmdOlder": {
+    "message": "播放同頻道較舊的上一部影片"
+  },
+  "prevLabel": {
+    "message": "上一部（較舊）"
+  },
+  "nextLabel": {
+    "message": "下一部（較新）"
+  },
+  "prevTip": {
+    "message": "較舊的上一部（Alt+Shift+←）"
+  },
+  "nextTip": {
+    "message": "較新的下一部（Alt+Shift+→）"
+  },
+  "autoLabel": {
+    "message": "播完自動接續"
+  },
+  "autoTip": {
+    "message": "這部播完後自動接著播"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "loadingChannel": {
+    "message": "讀取頻道資訊…"
+  },
+  "loadingList": {
+    "message": "讀取上傳清單…"
+  },
+  "searching": {
+    "message": "搜尋中… 已載入 $1 部"
+  },
+  "notFound": {
+    "message": "在頻道上傳清單裡找不到這部影片（可能是會員限定、直播或尚未公開）"
+  },
+  "atNewest": {
+    "message": "已經是最新的影片了"
+  },
+  "atOldest": {
+    "message": "已經是最舊的影片了"
+  },
+  "noOlder": {
+    "message": "（沒有更舊的了）"
+  },
+  "noNewer": {
+    "message": "（這已是最新）"
+  },
+  "olderPrefix": {
+    "message": "較舊的上一部："
+  },
+  "newerPrefix": {
+    "message": "較新的下一部："
+  },
+  "position": {
+    "message": "第 $1 / $2 部（新→舊）"
+  },
+  "countdown": {
+    "message": "$1 秒後播放：$2"
+  },
+  "untitled": {
+    "message": "（無標題）"
+  },
+  "errNoChannel": {
+    "message": "找不到頻道資訊"
+  },
+  "errChannelPage": {
+    "message": "頻道頁讀取失敗"
+  },
+  "errChannelId": {
+    "message": "無法解析頻道 ID"
+  },
+  "errList": {
+    "message": "清單讀取失敗"
+  },
+  "errListParse": {
+    "message": "無法解析清單頁"
+  },
+  "errListMore": {
+    "message": "續讀清單失敗"
+  },
+  "optAutoplay": {
+    "message": "播完自動接續"
+  },
+  "optAutoplayHint": {
+    "message": "影片結束後自動播同頻道的下一部"
+  },
+  "optDirection": {
+    "message": "接續方向"
+  },
+  "dirNewer": {
+    "message": "較新的下一部（由舊看到新）"
+  },
+  "dirOlder": {
+    "message": "較舊的上一部（由新看到舊）"
+  },
+  "optDelay": {
+    "message": "跳轉前等待秒數"
+  },
+  "optDelayHint": {
+    "message": "0 = 立刻，可搶在 YouTube 自動播放之前"
+  },
+  "optShorts": {
+    "message": "包含 Shorts 與直播"
+  },
+  "optShortsHint": {
+    "message": "關閉時只算一般影片"
+  },
+  "optPanel": {
+    "message": "在影片下方顯示控制列"
+  },
+  "keysText": {
+    "message": "快捷鍵：Alt+Shift+→ 較新的下一部、Alt+Shift+← 較舊的上一部（Mac 的 Alt 就是 Option）。"
+  },
+  "changeShortcuts": {
+    "message": "修改快捷鍵"
+  }
+}

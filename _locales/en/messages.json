@@ -1,0 +1,131 @@
+{
+  "extName": {
+    "message": "Channel Order Player for YouTube"
+  },
+  "extDesc": {
+    "message": "Jump to the previous / next upload of the same channel, in upload order. Auto-continue when a video ends."
+  },
+  "actionTitle": {
+    "message": "Channel Order Player settings"
+  },
+  "cmdNewer": {
+    "message": "Play the channel's next (newer) upload"
+  },
+  "cmdOlder": {
+    "message": "Play the channel's previous (older) upload"
+  },
+  "prevLabel": {
+    "message": "Previous (older)"
+  },
+  "nextLabel": {
+    "message": "Next (newer)"
+  },
+  "prevTip": {
+    "message": "Older upload (Alt+Shift+←)"
+  },
+  "nextTip": {
+    "message": "Newer upload (Alt+Shift+→)"
+  },
+  "autoLabel": {
+    "message": "Auto-continue"
+  },
+  "autoTip": {
+    "message": "Play the next upload automatically when this video ends"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "loadingChannel": {
+    "message": "Loading channel info…"
+  },
+  "loadingList": {
+    "message": "Loading upload list…"
+  },
+  "searching": {
+    "message": "Searching… $1 videos loaded"
+  },
+  "notFound": {
+    "message": "This video is not in the channel's upload list (it may be members-only, a live stream, or unlisted)"
+  },
+  "atNewest": {
+    "message": "This is already the newest video"
+  },
+  "atOldest": {
+    "message": "This is already the oldest video"
+  },
+  "noOlder": {
+    "message": "(no older videos)"
+  },
+  "noNewer": {
+    "message": "(this is the newest)"
+  },
+  "olderPrefix": {
+    "message": "Older: "
+  },
+  "newerPrefix": {
+    "message": "Newer: "
+  },
+  "position": {
+    "message": "#$1 of $2 (newest → oldest)"
+  },
+  "countdown": {
+    "message": "Playing in $1 s: $2"
+  },
+  "untitled": {
+    "message": "(untitled)"
+  },
+  "errNoChannel": {
+    "message": "Could not find channel info"
+  },
+  "errChannelPage": {
+    "message": "Failed to load channel page"
+  },
+  "errChannelId": {
+    "message": "Could not resolve channel ID"
+  },
+  "errList": {
+    "message": "Failed to load upload list"
+  },
+  "errListParse": {
+    "message": "Could not parse upload list page"
+  },
+  "errListMore": {
+    "message": "Failed to load more of the upload list"
+  },
+  "optAutoplay": {
+    "message": "Auto-continue when a video ends"
+  },
+  "optAutoplayHint": {
+    "message": "Automatically play the channel's next upload"
+  },
+  "optDirection": {
+    "message": "Direction"
+  },
+  "dirNewer": {
+    "message": "Next (newer) — oldest to newest"
+  },
+  "dirOlder": {
+    "message": "Previous (older) — newest to oldest"
+  },
+  "optDelay": {
+    "message": "Delay before jumping (seconds)"
+  },
+  "optDelayHint": {
+    "message": "0 = immediately, beats YouTube's own autoplay"
+  },
+  "optShorts": {
+    "message": "Include Shorts and live streams"
+  },
+  "optShortsHint": {
+    "message": "When off, only regular videos count"
+  },
+  "optPanel": {
+    "message": "Show the control bar under the video"
+  },
+  "keysText": {
+    "message": "Shortcuts: Alt+Shift+→ next (newer), Alt+Shift+← previous (older). On Mac, Alt is Option."
+  },
+  "changeShortcuts": {
+    "message": "Change shortcuts"
+  }
+}

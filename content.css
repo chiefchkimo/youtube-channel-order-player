@@ -1,0 +1,141 @@
+#ytco-panel {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin: 12px 0 4px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.05);
+  color: #0f0f0f;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+}
+#ytco-panel[data-floating="1"] {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: min(720px, calc(100vw - 32px));
+  z-index: 9999;
+  background: rgba(33, 33, 33, 0.95);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+#ytco-panel .ytco-btn {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.08);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+#ytco-panel .ytco-btn:hover:not(:disabled) {
+  background: rgba(0, 0, 0, 0.15);
+}
+#ytco-panel .ytco-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+#ytco-panel .ytco-btn.ytco-next {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+#ytco-panel .ytco-arrow {
+  flex: 0 0 auto;
+  font-size: 16px;
+}
+#ytco-panel .ytco-btn-text {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+#ytco-panel .ytco-label {
+  font-size: 11px;
+  opacity: 0.7;
+}
+#ytco-panel .ytco-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+}
+#ytco-panel .ytco-mid {
+  flex: 0 0 auto;
+  max-width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+#ytco-panel .ytco-status {
+  font-size: 11px;
+  opacity: 0.75;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+#ytco-panel .ytco-auto {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  user-select: none;
+}
+#ytco-panel .ytco-auto input {
+  margin: 0;
+}
+#ytco-panel .ytco-countdown {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #ff5252;
+}
+#ytco-panel[data-counting="1"] .ytco-countdown {
+  display: inline-flex;
+}
+#ytco-panel .ytco-cancel {
+  border: none;
+  border-radius: 6px;
+  padding: 2px 8px;
+  background: rgba(255, 82, 82, 0.15);
+  color: inherit;
+  font: inherit;
+  font-size: 11px;
+  cursor: pointer;
+}
+#ytco-panel .ytco-error {
+  color: #ff5252;
+}
+
+/* 深色模式：YouTube 會在 <html> 加上 dark 屬性 */
+html[dark] #ytco-panel {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f1f1f1;
+}
+html[dark] #ytco-panel .ytco-btn {
+  background: rgba(255, 255, 255, 0.1);
+}
+html[dark] #ytco-panel .ytco-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.2);
+}
+html[dark] #ytco-panel .ytco-label,
+html[dark] #ytco-panel .ytco-status {
+  color: #aaa;
+  opacity: 1;
+}
+html[dark] #ytco-panel .ytco-error {
+  color: #ff6b6b;
+}
