@@ -102,10 +102,10 @@
     "message": "Direction"
   },
   "dirNewer": {
-    "message": "Next (newer) — oldest to newest"
+    "message": "Newer (oldest → newest)"
   },
   "dirOlder": {
-    "message": "Previous (older) — newest to oldest"
+    "message": "Older (newest → oldest)"
   },
   "optDelay": {
     "message": "Delay before jumping (seconds)"

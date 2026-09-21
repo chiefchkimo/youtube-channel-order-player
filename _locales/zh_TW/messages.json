@@ -102,10 +102,10 @@
     "message": "接續方向"
   },
   "dirNewer": {
-    "message": "較新的下一部（由舊看到新）"
+    "message": "較新的一部（舊→新）"
   },
   "dirOlder": {
-    "message": "較舊的上一部（由新看到舊）"
+    "message": "較舊的一部（新→舊）"
   },
   "optDelay": {
     "message": "跳轉前等待秒數"
